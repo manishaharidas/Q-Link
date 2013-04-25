@@ -1,0 +1,34 @@
+ <div class="container-fluid">  </br>
+      <div class="row-fluid"><div class="well sidebar-nav">  <div class="span5">  
+         <p>Header</p></div>
+</div>
+      </div>
+      <div class="row-fluid"> 
+        <div class="span2">  
+          <div class="well sidebar-nav">  
+            <ul class="nav nav-list">  
+              <li class="active"><a href="#">HTML 4.01</a></li> </br> 
+              <li><a href="#">HTML5</a></li>  </br>
+              <li><a href="#">CSS</a></li>  </br>
+              <li><a href="#">JavaScript</a></li>  </br>
+              <li><a href="#">Twitter Bootstrap</a></li>  </br>
+              <li><a href="#">Firebug</a></li>  </br>
+              <li><a href="#">PHP</a></li> </br> 
+              <li><a href="#">SQL</a></li>  </br>
+              <li><a href="#">MySQL</a></li>  </br>
+           </ul>  
+          </div> 
+        </div> 
+         <div class="span6">  
+          <div class="well sidebar-nav"> 
+            <p>Facebook is an online social networking service, whose name stems from the colloquial name for the book given to students at the start of the academic year by some university administrations in the United States to help students get to know each other.[7] It was founded in February 2004 by Mark Zuckerberg with his college roommates and fellow Harvard University students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.[8] The website's membership was initially limited by the founders to Harvard students, but was expanded to other colleges in the Boston area, the Ivy League, and Stanford University. It gradually added support for students at various other universities before opening to high school students, and eventually to anyone aged 13 and over. Facebook now allows any users who declare themselves to be at least 13 years old to become registered users of the site.[9]
+            Users must register before using the site, after which they may create a personal profile, add other users as friends, and exchange messages, including automatic notifications when they update their profile. Additionally, users may join common-interest user groups, organized by workplace, school or college, or other characteristics, and categorize their friends into lists such as "People From Work" or "Close Friends". As of September 2012, Facebook has over one billion active users.[10] According to a May 2011 Consumer Reports survey, there are 7.5 million children under 13 with accounts and 5 million under 10, violating the site's terms of service.[11]
+            </p>
+          </div>
+        </div>
+        <div class="span3"> <div class="well sidebar-nav">  
+                <p>chat list</p>
+          </div>
+        </div>
+  </div>
+</div>

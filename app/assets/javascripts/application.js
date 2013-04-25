@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+//= require bootstrap-datepicker
+//= require bootstrap-datepicker/core
+//= require bootstrap-datepicker/locales/bootstrap-datepicker.es
+//= require bootstrap-datepicker/locales/bootstrap-datepicker.fr
+$(document).on("focus", "[data-behaviour~='datepicker']", function(e){
+   $(this).datepicker({"format": "yyyy-mm-dd", "weekStart": 1, "autoclose": true})
+});
