@@ -1,12 +1,48 @@
+#container {
+    border:2px solid;
+    width:1250px;
+    height:630px;
+    background-color:white;
+}
+#header {
+    margin-top:10px;
+    margin-left:10px;
+    height:60px;
+    width:1230px;
+    border:2px solid;
+    background-color:grey; 
+}
+#welcome {
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+    width:800px;
+    height:440px;
+    border:2px solid;
+    
+}
 #login_form {
-    position : absolute;
-    top :50px;
-    left :900px;
-    height: 400px;
-    width:300px;
-    padding:2px;
-    border:1px double #999999;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    height: 440px;
+    width:410px;
+    border:2px solid;
     color:#333;
-    text-align:center;
     cursor:hand;
- }
+    background-color:grey; 
+}
+
+#login_form h3 {
+
+    text-align: left;
+}
+#footer {
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    height: 80px;
+    width:1230px;
+    border:2px solid;
+    background-color:grey; 
+}
