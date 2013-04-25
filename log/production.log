@@ -1,0 +1,243 @@
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-25 18:25:19 +0530
+Processing by UsersController#index as HTML
+Redirected to http://0.0.0.0:3000/users/sign_in
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-25 18:25:19 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 1013ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/user/qlink/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    3: <head>
+    4:   <title>QLink</title>
+    5: 
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4094668191904084997_17879080'
+
+
+Started GET "/profiles/profile_form" for 127.0.0.1 at 2013-04-25 18:25:57 +0530
+Processing by ProfilesController#profile_form as HTML
+  Rendered profiles/profile_form.html.erb within layouts/application (422.4ms)
+Completed 500 Internal Server Error in 1550ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/user/qlink/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    3: <head>
+    4:   <title>QLink</title>
+    5: 
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4094668191904084997_17879080'
+
+
+Connecting to database specified by database.yml
+Started GET "/profiles/profile_form" for 127.0.0.1 at 2013-04-25 18:28:05 +0530
+Processing by ProfilesController#profile_form as HTML
+  Rendered profiles/profile_form.html.erb within layouts/application (126.6ms)
+Completed 500 Internal Server Error in 904ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/user/qlink/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    3: <head>
+    4:   <title>QLink</title>
+    5: 
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2752794774526244309_24263980'
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-25 18:28:12 +0530
+Processing by UsersController#index as HTML
+Redirected to http://0.0.0.0:3000/users/sign_in
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-25 18:28:12 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (63.6ms)
+Completed 500 Internal Server Error in 980ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/user/qlink/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    3: <head>
+    4:   <title>QLink</title>
+    5: 
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2752794774526244309_24263980'
+
+
+Connecting to database specified by database.yml
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-25 18:30:55 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (47.3ms)
+Completed 500 Internal Server Error in 561ms
+
+ActionView::Template::Error ('twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/user/qlink/app/assets/stylesheets/bootstrap_and_overrides.css.less)):
+    3: <head>
+    4:   <title>QLink</title>
+    5: 
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3382664420787421448_25336760'
+
+
+Connecting to database specified by database.yml
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-25 18:31:39 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.0ms)
+Compiled bootstrap_and_overrides.css  (1213ms)  (pid 9958)
+Compiled login.css  (0ms)  (pid 9958)
+Compiled profiles.css  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker.css  (0ms)  (pid 9958)
+Compiled application.css  (1714ms)  (pid 9958)
+Compiled jquery.js  (2ms)  (pid 9958)
+Compiled jquery_ujs.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 9958)
+Compiled twitter/bootstrap.js  (529ms)  (pid 9958)
+Compiled bootstrap-datepicker/core.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.bg.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.br.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ca.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.cs.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.da.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.de.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.el.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.es.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fi.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fr.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.he.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hr.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hu.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.id.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.is.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.it.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ja.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.kr.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lt.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lv.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ms.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nb.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nl.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pl.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ro.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ru.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sk.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sl.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sv.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sw.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.th.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.tr.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.uk.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js  (0ms)  (pid 9958)
+Compiled bootstrap-datepicker/index.js  (830ms)  (pid 9958)
+Compiled application.js  (1560ms)  (pid 9958)
+Completed 200 OK in 8497ms (Views: 8367.0ms | ActiveRecord: 21.8ms)
+Started GET "/assets/application-1f29cb3b83eb2ec66f1deaf147be42af.css" for 127.0.0.1 at 2013-04-25 18:31:48 +0530
+Served asset /application-1f29cb3b83eb2ec66f1deaf147be42af.css - 200 OK (0ms)
+Started GET "/assets/application-06f1f6ccac25dd78aa88dc26b039493e.js" for 127.0.0.1 at 2013-04-25 18:31:48 +0530
+Served asset /application-06f1f6ccac25dd78aa88dc26b039493e.js - 200 OK (0ms)
+Started GET "/assets/login.css" for 127.0.0.1 at 2013-04-25 18:31:48 +0530
+Served asset /login.css - 200 OK (48ms)
+Started GET "/profiles/profile_form" for 127.0.0.1 at 2013-04-25 18:32:34 +0530
+Processing by ProfilesController#profile_form as HTML
+  Rendered profiles/profile_form.html.erb within layouts/application (340.3ms)
+Completed 200 OK in 414ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/profile.css.scss" for 127.0.0.1 at 2013-04-25 18:32:37 +0530
+Served asset /profile.css.scss - 404 Not Found (343ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/profile.css.scss"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/profile.css.scss" for 127.0.0.1 at 2013-04-25 18:32:39 +0530
+Served asset /profile.css.scss - 404 Not Found (44ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/profile.css.scss"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+

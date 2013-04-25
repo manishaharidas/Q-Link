@@ -1,6 +1,14 @@
 QLink::Application.routes.draw do
   devise_for :users
 root :to=>"users#index"
+resources :profiles do
+  member do
+  end
+  collection do
+    get 'profile_form'
+    post 'create'
+  end
+end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
