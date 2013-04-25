@@ -1,11 +1,20 @@
 QLink::Application.routes.draw do
   devise_for :users
 root :to=>"users#index"
+<<<<<<< HEAD
 resources :events do
   member do
     end
   collection do
      get 'form_4_event'
+=======
+resources :profiles do
+  member do
+  end
+  collection do
+    get 'profile_form'
+    post 'create'
+>>>>>>> 690d75a5d623ea59e4b9b6a16a846790610d40ac
   end
 end
 

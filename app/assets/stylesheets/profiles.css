@@ -1,0 +1,25 @@
+#profile_form {
+	float:left;
+    margin-top:10px;
+    margin-left:400px;
+    height: 440px;
+    width:410px;
+    border:2px solid;
+    color:#333;
+    cursor:hand;
+    background-color:white; 
+}
+
+#form_fields {
+	margin-left: 90px;
+	margin-top: 20px;
+}
+
+#submit {
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+#heading {
+	margin-left: 80px;
+}

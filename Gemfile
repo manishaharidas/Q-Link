@@ -7,7 +7,7 @@ gem 'rails', '3.2.12'
 
 gem 'mysql2'
 gem 'devise'
-
+gem 'bootstrap-datepicker-rails'
 
 
 # Gems used only for assets and not required
@@ -25,8 +25,12 @@ gem 'twitter-bootstrap-rails'
 gem 'therubyracer'
 gem 'less-rails'
 gem 'jquery-rails'
+<<<<<<< HEAD
 gem 'bootstrap-datepicker-rails'
 
+=======
+gem 'twitter-bootstrap-rails'
+>>>>>>> 690d75a5d623ea59e4b9b6a16a846790610d40ac
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
