@@ -6,4 +6,6 @@ class EventsController < ApplicationController
 			redirect_to form_4_event_events_path
 		end
 	end
+	def form_4_event
+	end
 end
