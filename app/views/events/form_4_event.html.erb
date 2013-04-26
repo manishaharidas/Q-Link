@@ -1,0 +1,12 @@
+<link href="/assets/event.css" media="screen" rel="stylesheet" type="text/css" />
+<div id= "outer">
+<h3>EVENT CREATION</h3>
+ <%= form_for :event, :url => {:controller => 'events', :action => 'create' } do |f| %>
+    <p>Event Name  </p>   <%= f.text_field :event_name%> 
+ 	<p>Event Details </p>  <%= f.text_field :event_details%> 
+ 	<p>Event Venue  </p>  <%= f.text_field :event_venue%> 
+ 	<p>Event Date  </p> <%= f.text_field :event_date, 'data-behaviour' => 'datepicker' %>
+ 	<p>Event Time </p>    <%= f.text_field :event_time%>
+ 	<%= f.submit :Create_event %>
+ <% end %>
+</div>

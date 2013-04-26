@@ -21,10 +21,16 @@ group :assets do
  
   gem 'uglifier', '>= 1.0.3'
 end
+gem 'twitter-bootstrap-rails'
 gem 'therubyracer'
 gem 'less-rails'
 gem 'jquery-rails'
+<<<<<<< HEAD
+gem 'bootstrap-datepicker-rails'
+
+=======
 gem 'twitter-bootstrap-rails'
+>>>>>>> 690d75a5d623ea59e4b9b6a16a846790610d40ac
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
