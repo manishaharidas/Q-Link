@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  event_name: MyString
-  event_details: MyString
-  event_venue: 
-  event_time: 2013-04-24 15:56:14
-  event_date: 2013-04-24
+  title: MyString
+  description: MyString
+  start: 2013-04-26
+  end: 2013-04-26
+  allday: MyString
 
 two:
-  event_name: MyString
-  event_details: MyString
-  event_venue: 
-  event_time: 2013-04-24 15:56:14
-  event_date: 2013-04-24
+  title: MyString
+  description: MyString
+  start: 2013-04-26
+  end: 2013-04-26
+  allday: MyString
