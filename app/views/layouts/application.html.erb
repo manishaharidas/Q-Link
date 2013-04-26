@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>QLink</title>
-
+  <title>Qlinkdemo</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-<div class="container">
-  <div class="row">
-    
-	<%= yield %>
-            
-  </div>
-  
+   <div class="container-fluid">  </br>
+      <div class="row-fluid" ><div class="well sidebar-nav">  <div class="span3">  
+         <p>Header</p></div>
 </div>
-      
-  
+      </div> 
+      <div class="row-fluid"> 
+        <div class="span2">  
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">                
+              <li><a href="#">Home</a></li>  </br>
+              <li><%= link_to 'Profile', profile_form_profiles_path%></li>  </br>
+              <li><a href="#">Blog</a></li>  </br>
+              <li><a href="#">Discussion</a></li>  </br>
+              <li><a href="#">Events</a></li>  </br>      
+           </ul>  
+          </div> 
+        </div> 
+        
+        		<div class="span7">  
+            		<ul class="nav nav-tabs" >
+    					<li><%= link_to 'About', about_profiles_path%></li>    				
+    					<li><a href="#messages" data-toggle="tab">Posts</a></li>
+    					<li><a href="#settings" data-toggle="tab">Photos</a></li>
+    					<li><a href="#settings" data-toggle="tab">Videos</a></li>
+    					<li><a href="#settings" data-toggle="tab">Events</a></li>
+    				</ul>
+    				
+    					<%= yield %>
+    				
+    			</div>
+
+    		
+
+		
+         
+        <div class="span3" style="float: right;"> <div class="well sidebar-nav">  
+                <p>chat list</p>
+          </div>
+        </div>
+  </div>
+</div>
 </body>
 </html>

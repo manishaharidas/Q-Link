@@ -7,6 +7,7 @@ resources :profiles do
   collection do
     get 'profile_form'
     post 'create'
+    get 'about'
   end
 end
 

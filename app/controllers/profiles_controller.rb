@@ -1,7 +1,8 @@
 class ProfilesController < ApplicationController
 	def profile
 	end
-
+	def about
+	end
 	def create
 		@profile= Profile.create(params[:profile])
 		if @profile.save
@@ -9,7 +10,9 @@ class ProfilesController < ApplicationController
 			flash[:color]= "valid"
 			redirect_to profile_form_profiles_path
 		else
-			redirect_to root_path
+			flash[:notice] = "Invalid Entry"
+			flash[:color]= 
+			redirect_to profile_form_profiles_path
 		end
 	end
 end
