@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
+<<<<<<< HEAD
   def index1 
        #render :layout => false
       @events = Event.scoped 
@@ -16,3 +17,15 @@ class EventsController < ApplicationController
 
   end  
 
+=======
+	def create
+		@event = Event.create!(params[:event])
+		if @event.save
+			flash[:alert]="Event Added"
+			redirect_to form_4_event_events_path
+		end
+	end
+	def form_4_event
+	end
+end
+>>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8

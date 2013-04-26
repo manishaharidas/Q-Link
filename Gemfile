@@ -28,7 +28,10 @@ gem 'jquery-rails'
 gem 'bootstrap-datepicker-rails'
 
 gem 'twitter-bootstrap-rails'
+<<<<<<< HEAD
 gem 'fullcalendar-rails'
+=======
+>>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

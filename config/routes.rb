@@ -3,6 +3,7 @@ QLink::Application.routes.draw do
 root :to=>"users#index"
 
 resources :events do
+<<<<<<< HEAD
    member do
 
    end
@@ -13,12 +14,25 @@ resources :events do
  
    end
   end
+=======
+  member do
+    end
+  collection do
+     get 'form_4_event'
+     post 'create'
+end
+end
+>>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8
 resources :profiles do
   member do
   end
   collection do
     get 'profile_form'
     post 'create'
+<<<<<<< HEAD
+=======
+    get 'about'
+>>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8
   end
 end 
 
