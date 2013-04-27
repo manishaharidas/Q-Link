@@ -1,5 +1,5 @@
 QLink::Application.routes.draw do
-  devise_for :users
+  devise_for :users, :controllers => { :omniauth_callbacks => "callbacks" }
 root :to=>"users#index"
 
 resources :events do

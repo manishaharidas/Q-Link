@@ -1,6 +1,5 @@
-class UsersController < ActionController::Base
-def index
-redirect_to new_user_session_path, :layout=> false
-
-end
+class UsersController < ApplicationController
+	def index
+		render :layout => 'login'
+	end
 end
