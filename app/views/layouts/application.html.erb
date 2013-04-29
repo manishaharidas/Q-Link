@@ -8,23 +8,24 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	
     <div class="container-fluid">  </br>
         <div class="row-fluid" >
       		<div class="well sidebar-nav" style="padding-left: 10px; padding-bottom: 10px; padding-top: 10px;">
       			
-      			<%= image_tag("Qburst.jpg", :alt => "QBurst Logo") %> 			 
-      			 <ul class="nav nav-tabs" style="float: right;" >
-      				<li><a style="padding-right:30px; text-decoration:none;" href="#messages" data-toggle="tab">Settings</a></li>
-      				<li><a style="padding-right:30px; text-decoration:none;"  href="#messages" data-toggle="tab">Logout</a></li>
-      			</ul>
+      			  <%= image_tag("Qburst.jpg", :alt => "QBurst Logo") %> 			 
+      			  <ul class="nav nav-tabs" style="float: right;" >
+      				  <li><a style="padding-right:30px; text-decoration:none;" href="#messages" data-toggle="tab">Settings</a></li>
+      				  <li><a style="padding-right:30px; text-decoration:none;"  href="#messages" data-toggle="tab">Logout</a></li>
+      			  </ul>
 
-         		<form method="get" action="http://www.google.com/search" style="float: right; padding-right: 30px;">
-	         		<input type="hidden" name="search" value="" />
+         		  <form method="get" action="http://www.google.com/search" style="float: right; padding-right: 30px;">
+	         		    <input type="hidden" name="search" value="" />
                  	<input style="padding-right: 10px;margin-top: 10px;" type="text"  height="30" name="q" size="31" maxlength="255" value="" />
                  	<input style="width: 30px; height: 30px;" class="btn btn-primary" type="submit" value="Go!" />
            		</form>	
          	</div>
-		</div>
+		    </div>
          
       <div class="row-fluid"> 
         <div class="span2">  
@@ -37,30 +38,14 @@
               <li><%= link_to 'Events', form_4_event_events_path%></li>  </br>      
            </ul>  
           </div> 
-        </div> 
-        
-        		<div class="span7">  
-            		<ul class="nav nav-tabs" >
-    					<li style="padding: 0 25px;"><%= link_to 'About', about_profiles_path , 'class'=>"list"%></li>    				
-    					<li style="padding: 0 25px;"><a href="#messages" data-toggle="tab">Posts</a></li>
-    					<li style="padding: 0 25px;"><a href="#settings" data-toggle="tab">Photos</a></li>
-    					<li style="padding: 0 25px;"><a href="#settings" data-toggle="tab">Videos</a></li>
-    					<li style="padding: 0 25px;"><a href="#" data-toggle="tab">Events</a></li>
-    				</ul>
-    				
-    					<%= yield %>
-    				
-    			</div>
-
-    		
-
-		
-         
-        <div class="span3" style="float: right;"> <div class="well sidebar-nav">  
-                <p>chat list</p>
+        </div>     
+        		<%= yield %>			
+          <div class="span3" style="float: right;"> 
+              <div class="well sidebar-nav">  
+                  <p>chat list</p>
+              </div>
           </div>
-        </div>
-  </div>
-</div>
+      </div>
+    </div>
 </body>
 </html>

@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html>
 
-  <link href="/assets/profiles.css" media="screen" rel="stylesheet" type="text/css" />
- 
-<div id="profile_form">
+  <link href="/assets/profiles.css" media="screen" rel="stylesheet" type="text/css" />		
+			
+				<div class="span7">  
+            		<ul class="nav nav-tabs" >
+    					<li style="padding: 0 30px;"><%= link_to 'About', about_profiles_path%></li>    				
+    					<li style="padding: 0 30px;"><a href="#messages" data-toggle="tab">Posts</a></li>
+    					<li style="padding: 0 30px;"><a href="#settings" data-toggle="tab">Photos</a></li>
+    					<li style="padding: 0 30px;"><a href="#settings" data-toggle="tab">Videos</a></li>
+    					<li style="padding: 0 30px;"><a href="#" data-toggle="tab">Events</a></li>
+    				</ul>   
+    			</div>
+    			<div id="profile_form">
+					<h2 id="heading">Profile Updation</h2>
+    				<div id="form_fields">
+    					
+    						<table cellpadding="10px" >
+    							<%=  form_for :profile, :url => {:controller => 'profiles', :action => 'create'} do |f| %>
+   									<tr>
+   										<td><%= f.label :first_name%></td>
+   										<td><%= f.text_field :first_name, :autofocus => true %></td>
+   									</tr>
 
-<h2 id="heading">Profile Updation</h2>
-<div id="form_fields">
-	<table cellpadding="10px">
- <%=  form_for :profile, :url => {:controller => 'profiles', :action => 'create'} do |f| %>
-   <tr><td>First Name    </td><td><%= f.text_field :first_name, :autofocus => true %></td></tr>
+   									<tr>
+   										<td><%= f.label :last_name%></td>
+   										<td><%= f.text_field :last_name , :autofocus => true%></td>
+   									</tr>
 
-   <tr><td>Last Name     </td><td><%= f.text_field :last_name , :autofocus => true%></td></tr>
+   									<tr>
+   										<td><%= f.label :date_of_birth%></td>
+   										<td><%= f.text_field :date_of_birth, 'data-behaviour' => 'datepicker' %></td>
+   									</tr>
 
-   <tr><td>Date of Birth </td><td><%= f.text_field :date_of_birth, 'data-behaviour' => 'datepicker' %></td></tr>
+   									<tr>
+   										<td><%= f.label :place%></td>
+   										<td><%= f.text_field :place, :autofocus => true %></td>
+   									</tr>
 
-   <tr><td>Place         </td><td><%= f.text_field :place, :autofocus => true %></td></tr>
-
-
-   <tr><td></td><td id="submit"><%= f.submit "Update", 'class'=>"btn btn-primary",'data-loading-text'=>"Updating..."%></td></tr>
-</table>
-</div>
-  <% end %>
-
-</div>
+  									<tr>
+  										<td></td>
+  										<td id="submit"><%= f.submit "Update", 'class'=>"btn btn-primary",'data-loading-text'=>"Updating..."%></td>
+  									</tr>
+   								<% end %>
+    						</table>  
+    					
+    				</div> 
+		 		</div> 
+			
 </html>
