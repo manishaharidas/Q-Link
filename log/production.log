@@ -241,3 +241,62 @@ ActionController::RoutingError (No route matches [GET] "/assets/profile.css.scss
   /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+Connecting to database specified by database.yml
+Started GET "/blogs/form_blog" for 127.0.0.1 at 2013-04-29 18:25:06 +0530
+Processing by BlogsController#form_blog as HTML
+  Rendered blogs/form_blog.html.erb within layouts/application (6.5ms)
+Compiled blogs.css  (396ms)  (pid 8243)
+Compiled bootstrap_and_overrides.css  (1163ms)  (pid 8243)
+Compiled discussions.css  (0ms)  (pid 8243)
+Compiled discussions.css  (1ms)  (pid 8243)
+Compiled events.css  (0ms)  (pid 8243)
+Compiled login.css  (0ms)  (pid 8243)
+Compiled profiles.css  (0ms)  (pid 8243)
+Compiled bootstrap-datepicker.css  (0ms)  (pid 8243)
+Compiled application.css  (1584ms)  (pid 8243)
+Compiled jquery.js  (1ms)  (pid 8243)
+Compiled jquery_ujs.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 8243)
+Compiled twitter/bootstrap.js  (94ms)  (pid 8243)
+Compiled application.js  (111ms)  (pid 8243)
+Completed 500 Internal Server Error in 2440ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+  (in /home/qbadmin/Project/Q-Link/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4393520116883756297_36815960'
+
+

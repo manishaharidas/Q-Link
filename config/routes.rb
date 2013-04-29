@@ -30,6 +30,15 @@ resources :discussions do
   end
 end
 
+resources :blogs do   
+  member do
+  
+  end
+  collection do
+   post 'create'
+   get 'form_blog'
+  end
+end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
