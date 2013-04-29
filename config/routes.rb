@@ -8,6 +8,7 @@ resources :events do
      post 'save_event'
      get 'index'
      get 'showcalender'
+     get 'firstpage'
    end
   end
 

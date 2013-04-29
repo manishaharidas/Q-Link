@@ -1,19 +1,20 @@
 #outer 
   {
     float:left;
-    margin-left:100px;
+    margin-left:30px;
     margin-top:0px;
     border:1px solid;
-    width:400px;
+    width:500px;
     height:400px;
     background-color:#C0DFEC;
-    padding-left: 30px;
+    padding-left: 60px;
     padding-top: 10px;
    
   }
 .option-large {
   width: 70px ;
 }
+
 #showtab
 {
   float:right;
@@ -23,3 +24,5 @@
   margin-right:25px;
   margin-top:0px;
 }
+
+

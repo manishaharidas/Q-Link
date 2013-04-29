@@ -21,9 +21,9 @@ class EventsController < ApplicationController
 	
     end
    def showcalendar
-    
    end  
    def firstpage
-        @data_to_display = Event.find_by_sql("select * from events where start > sysdate + 30")
+        @data_to_display = Event.find_by_sql("select * from events where start <= SYSDATE() + INTERVAL 15 DAY ")
+        #render :json =>  @data_to_display 
    end
 end

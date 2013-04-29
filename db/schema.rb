@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130426115659) do
+ActiveRecord::Schema.define(:version => 20130429102358) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(:version => 20130426115659) do
     t.string   "allday"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.datetime "end"
     t.datetime "start"
+    t.datetime "endtime"
   end
 
   create_table "profiles", :force => true do |t|
