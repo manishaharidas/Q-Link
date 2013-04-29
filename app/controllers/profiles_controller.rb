@@ -1,10 +1,12 @@
 class ProfilesController < ApplicationController
-	def profile
+	def profile_form
+		
 	end
 	def about
+		@profile=Profile.all
+		
 	end
 	def create
-		@profile= Profile.create(params[:profile])
 		if @profile.save
 			flash[:notice] = "Profile Updated"
 			flash[:color]= "valid"
@@ -14,5 +16,8 @@ class ProfilesController < ApplicationController
 			flash[:color]= 
 			redirect_to profile_form_profiles_path
 		end
+	end
+	def posts
+		@updatedpost=Post.all.reverse
 	end
 end

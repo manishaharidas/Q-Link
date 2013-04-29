@@ -13,16 +13,22 @@
         <div class="row-fluid" >
       		<div class="well sidebar-nav" style="padding-left: 10px; padding-bottom: 10px; padding-top: 10px;">
       			
-      			  <%= image_tag("Qburst.jpg", :alt => "QBurst Logo") %> 			 
-      			  <ul class="nav nav-tabs" style="float: right;" >
-      				  <li><a style="padding-right:30px; text-decoration:none;" href="#messages" data-toggle="tab">Settings</a></li>
-      				  <li><a style="padding-right:30px; text-decoration:none;"  href="#messages" data-toggle="tab">Logout</a></li>
-      			  </ul>
-
+      			  <%= image_tag("Qburst.jpg", :alt => "QBurst Logo") %> 		      			 
+              <div class="pull-right">
+                <ul class="nav pull-right">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">                            
+                            <li><%= link_to 'Settings', :style=>"padding-right:30px; text-decoration:none;" %><i class="icon-envelope"></i></li>
+                            <li class="divider"></li>
+                            <li><%= link_to 'Logout', destroy_user_session_path, :method=>:delete, :style=>"padding-right:30px; text-decoration:none;" %><i class="icon-off"></i></li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
          		  <form method="get" action="http://www.google.com/search" style="float: right; padding-right: 30px;">
 	         		    <input type="hidden" name="search" value="" />
                  	<input style="padding-right: 10px;margin-top: 10px;" type="text"  height="30" name="q" size="31" maxlength="255" value="" />
-                 	<input style="width: 30px; height: 30px;" class="btn btn-primary" type="submit" value="Go!" />
+                 	<button type="submit" class="btn btn-primary"> <i class="icon-search icon-white"></i></button>
            		</form>	
          	</div>
 		    </div>
@@ -31,8 +37,8 @@
         <div class="span2">  
           <div class="well sidebar-nav">
             <ul class="nav nav-list">                
-              <li><a href="#">Home</a></li>  </br>
-              <li><%= link_to 'Profile', profile_form_profiles_path%></li>  </br>
+              <li><%= link_to 'Home', home_home_index_path%></li></br>
+              <li><%= link_to 'Profile', about_profiles_path%></li>  </br>
               <li><a href="#">Blog</a></li>  </br>
               <li><a href="#">Discussion</a></li>  </br>
               <li><%= link_to 'Events', form_4_event_events_path%></li>  </br>      
@@ -40,7 +46,7 @@
           </div> 
         </div>     
         		<%= yield %>			
-          <div class="span3" style="float: right;"> 
+          <div class="span3" style="float: right; margin-left: 10px;"> 
               <div class="well sidebar-nav">  
                   <p>chat list</p>
               </div>

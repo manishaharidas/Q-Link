@@ -17,6 +17,15 @@ resources :profiles do
     get 'profile_form'
     post 'create'
     get 'about'
+    get 'posts'
+  end
+end
+resources :home do
+  member do
+  end
+  collection do
+    get 'home'
+    post 'create'
   end
 end
 

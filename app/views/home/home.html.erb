@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link href="/assets/home.css" media="screen" rel="stylesheet" type="text/css" />		
+		
+    	<div id="container_box">
+            <div id="post_box">
+                <table cellpadding="10px">
+         	  	   <%=  form_for :home, :url => {:controller => 'home', :action => 'create'} do |f| %>
+	  	            <tr>
+                        <td><%= f.text_field :description, :style=>"width: 600px; margin-top: 10px;"%></td>
+                        <td><%= f.submit "Post" ,'class'=>"btn btn-primary"%></td>
+                    </tr>
+                    <% end%>
+                </table>
+            </div>
+    	  	  <h5 style="padding-left: 20px;">Latest Posts</h5>	
+            <div id="display_posts">                
+			    <table id="post_table" cellpadding="20px" cellspacing="10px">
+			        <% @updatedpost.each do |post| %>
+                    <tr >
+                        <td style="font-size: 12pt;"><%= post.description%></td>
+                        <td style="font-size: 9pt;"><%= post.created_at.to_date %></td>
+                        <% @seconds_from_post_creation = (Time.now.to_i - Time.at(post.created_at).to_i)%>
+                        <% if (@seconds_from_post_creation>(60*60*24))%>
+                            <td  style="font-size: 9pt;"><%= @days_from_creation = @seconds_from_post_creation / (60*60*24)%> days ago</td> 
+                            <% else if((@seconds_from_post_creation>(60*60))&&(@seconds_from_post_creation<(60*60*24)))%>
+                                <% @hours_from_creation = @seconds_from_post_creation/(60*60)%> 
+                                <% if @hours_from_creation==1%>
+                                    <td  style="font-size: 9pt;"><%= @hours_from_creation%> hour ago</td>
+                                <% else%>
+                                    <td  style="font-size: 9pt;"><%= @hours_from_creation%> hours ago</td>
+                                <% end%>
+                                <% else if(@seconds_from_post_creation<(60*60))%>
+                                    <td  style="font-size: 9pt;"><%= @minutes_from_creation = @seconds_from_post_creation/(60)%> minutes ago</td>
+                                    <% else%>
+                                        <td  style="font-size: 9pt;">Just now</td>
+                                    <% end%> 
+                                <%end%>
+                            <% end%>                        
+                        </tr>
+                        <% end %>
+				    </table>
+                </div>        		
+    	</div>
+</html>

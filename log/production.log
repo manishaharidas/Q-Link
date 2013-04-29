@@ -241,3 +241,153 @@ ActionController::RoutingError (No route matches [GET] "/assets/profile.css.scss
   /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-29 17:39:59 +0530
+Processing by UsersController#index as HTML
+Redirected to http://0.0.0.0:3000/users/sign_in
+Completed 302 Found in 348ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-29 17:40:03 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.4ms)
+Compiled about.css  (0ms)  (pid 29387)
+Compiled bootstrap_and_overrides.css  (1378ms)  (pid 29387)
+Compiled events.css  (0ms)  (pid 29387)
+Compiled home.css  (0ms)  (pid 29387)
+Compiled home.css  (1545ms)  (pid 29387)
+Compiled login.css  (1ms)  (pid 29387)
+Compiled profiles.css  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker.css  (0ms)  (pid 29387)
+Compiled application.css  (4009ms)  (pid 29387)
+Compiled jquery.js  (2ms)  (pid 29387)
+Compiled jquery_ujs.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 29387)
+Compiled twitter/bootstrap.js  (981ms)  (pid 29387)
+Compiled bootstrap.js  (507ms)  (pid 29387)
+Compiled events.js  (1ms)  (pid 29387)
+Compiled home.js  (0ms)  (pid 29387)
+Compiled profiles.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/core.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.bg.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.br.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ca.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.cs.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.da.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.de.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.el.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.es.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fi.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fr.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.he.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hr.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hu.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.id.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.is.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.it.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ja.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.kr.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lt.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lv.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ms.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nb.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nl.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pl.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ro.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ru.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sk.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sl.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sv.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sw.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.th.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.tr.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.uk.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js  (0ms)  (pid 29387)
+Compiled bootstrap-datepicker/index.js  (710ms)  (pid 29387)
+Compiled application.js  (2809ms)  (pid 29387)
+Completed 200 OK in 16739ms (Views: 15886.0ms | ActiveRecord: 365.3ms)
+Started GET "/assets/application-6b5ab9a31e79781cb1b4021070df2e34.css" for 127.0.0.1 at 2013-04-29 17:40:26 +0530
+Served asset /application-6b5ab9a31e79781cb1b4021070df2e34.css - 200 OK (0ms)
+Started GET "/assets/application-073432fd70b69e29a3120bab17a6968c.js" for 127.0.0.1 at 2013-04-29 17:40:29 +0530
+Served asset /application-073432fd70b69e29a3120bab17a6968c.js - 200 OK (0ms)
+Started GET "/assets/Qburst-0ffc60385bd705416945f8c199455b8a.jpg" for 127.0.0.1 at 2013-04-29 17:40:33 +0530
+Served asset /Qburst-0ffc60385bd705416945f8c199455b8a.jpg - 200 OK (0ms)
+Started GET "/home/home" for 127.0.0.1 at 2013-04-29 17:41:11 +0530
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (386.2ms)
+Completed 200 OK in 2173ms (Views: 524.3ms | ActiveRecord: 769.0ms)
+Started GET "/assets/home.css" for 127.0.0.1 at 2013-04-29 17:41:17 +0530
+Served asset /home.css - 200 OK (941ms)
+Started GET "/profiles/about" for 127.0.0.1 at 2013-04-29 17:41:32 +0530
+Processing by ProfilesController#about as HTML
+  Rendered profiles/about.html.erb within layouts/application (36.6ms)
+Completed 200 OK in 439ms (Views: 76.0ms | ActiveRecord: 312.3ms)
+Started GET "/assets/about.css" for 127.0.0.1 at 2013-04-29 17:41:34 +0530
+Served asset /about.css - 200 OK (156ms)
+Started GET "/profiles/posts" for 127.0.0.1 at 2013-04-29 17:41:38 +0530
+Processing by ProfilesController#posts as HTML
+  Rendered profiles/posts.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 69ms (Views: 66.8ms | ActiveRecord: 0.2ms)
+Started GET "/profiles/about" for 127.0.0.1 at 2013-04-29 17:41:40 +0530
+Processing by ProfilesController#about as HTML
+  Rendered profiles/about.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+Started GET "/profiles/posts" for 127.0.0.1 at 2013-04-29 17:41:44 +0530
+Processing by ProfilesController#posts as HTML
+  Rendered profiles/posts.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.1ms)
+Started POST "/home" for 127.0.0.1 at 2013-04-29 17:42:02 +0530
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0oWsyE0tFX6bqdFvyplRiL9tUK5PDRmBpYVZOXMHVu0=", "home"=>{"description"=>"production run"}, "commit"=>"Post"}
+Redirected to http://0.0.0.0:3000/home/home
+Completed 302 Found in 725ms (ActiveRecord: 435.2ms)
+Started GET "/home/home" for 127.0.0.1 at 2013-04-29 17:42:03 +0530
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 216ms (Views: 27.9ms | ActiveRecord: 187.4ms)
+Started GET "/home/home" for 127.0.0.1 at 2013-04-29 17:42:08 +0530
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+Started GET "/profiles/about" for 127.0.0.1 at 2013-04-29 17:42:11 +0530
+Processing by ProfilesController#about as HTML
+  Rendered profiles/about.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+Started GET "/profiles/posts" for 127.0.0.1 at 2013-04-29 17:42:13 +0530
+Processing by ProfilesController#posts as HTML
+  Rendered profiles/posts.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 4.3ms | ActiveRecord: 23.8ms)
+Started GET "/home/home" for 127.0.0.1 at 2013-04-29 17:42:20 +0530
+Processing by HomeController#home as HTML
+  Rendered home/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-04-29 17:42:26 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0oWsyE0tFX6bqdFvyplRiL9tUK5PDRmBpYVZOXMHVu0="}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 76ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2013-04-29 17:42:26 +0530
+Processing by UsersController#index as HTML
+Redirected to http://0.0.0.0:3000/users/sign_in
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-29 17:42:26 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)

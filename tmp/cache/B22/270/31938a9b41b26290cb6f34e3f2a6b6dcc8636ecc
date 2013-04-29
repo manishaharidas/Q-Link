@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1367237494.4803886:@value"Û[I"Í#display_form {
+	float:left;
+    margin-left:40px;
+    height: 400px;
+    width: 550px;
+    padding-right: 10px;
+    border:2px solid #e3e3e3;
+    color:#333;
+    cursor:hand;
+    background-color:white;
+}
+
+#display_fields {
+	margin-left: 60px;
+	margin-top: 30px;
+	background-color: #e3e3e3;
+	 -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;  
+	padding-right: 10px;
+	margin-left:20px;
+	
+}
+
+h3 {
+	color: #333;
+	margin-left: 40px;
+}
+:EF
