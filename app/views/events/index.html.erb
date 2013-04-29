@@ -1,0 +1,30 @@
+<html>  
+<div id= 'showtab'>
+<%= link_to "MY CALENDAR", showcalender_events_path %>
+</div>
+<div id='outer'>  
+
+<%= form_for :event, url: { action: 'save_event', controller: "events", method: :post} do |f| %>
+<p>
+  <%=f.label :title %>
+  <%=f.text_field :title %>
+</p>
+<p>
+  <%=f.label :description %>
+  <%=f.text_area :description, :rows => 4, :cols => 30 %>
+</p>
+<p>
+  <%=f.label :starttime, 'Start Date' %>
+  <%=f.datetime_select :start, {},{:class => 'option-large'}%>
+</p>
+<p>
+  <%=f.label :endtime, 'End Date' %>
+  <%=f.datetime_select :end, {},{:class => 'option-large'}%>
+</p>
+<p>
+  <%= f.submit(type: 'submit', class: "btn btn-primary")  %>
+</p>
+<% end %>
+
+</div>  
+</html>

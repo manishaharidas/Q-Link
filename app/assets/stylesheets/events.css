@@ -1,16 +1,25 @@
 #outer 
   {
     float:left;
-    margin-left:200px;
-    margin-top:2px;
+    margin-left:100px;
+    margin-top:0px;
     border:1px solid;
     width:400px;
-    height:550px;
-    background-color:#99EEEE;
+    height:400px;
+    background-color:#C0DFEC;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
    
   }
 .option-large {
   width: 70px ;
+}
+#showtab
+{
+  float:right;
+  border:1px solid;
+  font-color:white;
+  background-color:#3A99C2;
+  margin-right:25px;
+  margin-top:0px;
 }

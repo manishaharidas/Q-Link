@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
 <head>
   <title>QLink</title>
-=======
 
-<head>
-  <title>Qlinkdemo</title>
->>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<<<<<<< HEAD
+
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
 <div class="container">
   <div class="row">
-	<%= yield %>
-=======
+	
+
     <div class="container-fluid">  </br>
         <div class="row-fluid" >
       		<div class="well sidebar-nav" style="padding-left: 10px; padding-bottom: 10px; padding-top: 10px;">
@@ -46,7 +42,7 @@
               <li><%= link_to 'Profile', profile_form_profiles_path%></li>  </br>
               <li><a href="#">Blog</a></li>  </br>
               <li><a href="#">Discussion</a></li>  </br>
-              <li><%= link_to 'Events', form_4_event_events_path%></li>  </br>      
+              <li><%= link_to 'Events', events_path%></li>  </br>      
            </ul>  
           </div> 
         </div> 
@@ -72,7 +68,7 @@
                 <p>chat list</p>
           </div>
         </div>
->>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8
+
   </div>
 </div>
 </body>

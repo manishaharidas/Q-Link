@@ -1,31 +1,29 @@
 class EventsController < ApplicationController
-<<<<<<< HEAD
-  def index1 
+
+  def index
        #render :layout => false
-      @events = Event.scoped 
-      @events = Event.between(params['start'], params['end']) if (params['start'] && params['end']) 
+        @events = Event.scoped 
+        #@events = Event.between(params['start'], params['end']) if (params['start'] && params['end'])
+        respond_to do |format|
+        format.html # index.html.erb
+        format.json { render :json =>  @events }
+      end
    end 
    def save_event
    	@event = Event.create(params[:event])
-   	    if @event.save
-   	      flash[:alert]="Event Added"
-		      redirect_to index1_events_path
-		 end
-   end
+          if @event.save
+               flash[:alert] = "Event added!"
+               redirect_to events_path
+          else
+           flash[:alert] = "Error while adding event!"
+           redirect_to events_path
+           end
+	
+    end
    def showcalendar
+    
+   end  
+   def firstpage
+        @data_to_display = Event.find_by_sql("select * from events where start > sysdate + 30")
    end
-
-  end  
-
-=======
-	def create
-		@event = Event.create!(params[:event])
-		if @event.save
-			flash[:alert]="Event Added"
-			redirect_to form_4_event_events_path
-		end
-	end
-	def form_4_event
-	end
 end
->>>>>>> 73ef1acaa4d0b21113608b5dc8845cc8649d38f8

@@ -11,16 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130426071731) do
+ActiveRecord::Schema.define(:version => 20130426115659) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
     t.string   "description"
-    t.date     "start"
-    t.date     "end"
     t.string   "allday"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.datetime "end"
+    t.datetime "start"
   end
 
   create_table "profiles", :force => true do |t|
