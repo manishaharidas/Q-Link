@@ -20,6 +20,16 @@ resources :profiles do
   end
 end
 
+resources :discussions do   
+  member do
+  
+  end
+  collection do
+   post 'create'
+   get 'form_disc'
+  end
+end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
