@@ -1,7 +1,9 @@
 class ProfilesController < ApplicationController
+	#before_filter :authorize_user!
 	def profile
 	end
 	def about
+		
 	end
 	def create
 		@profile= Profile.create(params[:profile])

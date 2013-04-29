@@ -32,6 +32,10 @@
     cursor:hand;
     background-color:white; 
 }
+#login_form_fields {
+    margin-left: 20px;
+
+}
 .option-large {
  height:30px !important;
  width:200px;

@@ -241,3 +241,269 @@ ActionController::RoutingError (No route matches [GET] "/assets/profile.css.scss
   /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+Connecting to database specified by database.yml
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-04-29 18:53:23 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RH49qAkBbM0sURrN9PwDwEOXf7rZ7clFODIxSGg3nUM="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 386ms (ActiveRecord: 80.2ms)
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:53:24 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered users/index.html.erb within layouts/login (111.2ms)
+Compiled bootstrap_and_overrides.css  (1268ms)  (pid 15248)
+Compiled events.css  (0ms)  (pid 15248)
+Compiled login.css  (0ms)  (pid 15248)
+Compiled profiles.css  (0ms)  (pid 15248)
+Compiled users.css  (1162ms)  (pid 15248)
+Compiled bootstrap-datepicker.css  (0ms)  (pid 15248)
+Compiled application.css  (2658ms)  (pid 15248)
+Compiled jquery.js  (2ms)  (pid 15248)
+Compiled jquery_ujs.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 15248)
+Compiled twitter/bootstrap.js  (299ms)  (pid 15248)
+Compiled application.js  (583ms)  (pid 15248)
+Completed 500 Internal Server Error in 4605ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb___2596630844804987632_39124120'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:53:49 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered users/index.html.erb within layouts/login (158.9ms)
+Completed 500 Internal Server Error in 830ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+    at <eval>:1605:19431
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb__1792539035123912325_20874900'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:53:56 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered users/index.html.erb within layouts/login (3.4ms)
+Completed 500 Internal Server Error in 332ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb__1792539035123912325_20874900'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:53:58 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered users/index.html.erb within layouts/login (3.3ms)
+Completed 500 Internal Server Error in 315ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb__1792539035123912325_20874900'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:54:52 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered users/index.html.erb within layouts/login (183.1ms)
+Completed 500 Internal Server Error in 238ms
+
+ActionView::Template::Error (google-sign-in.png isn't precompiled):
+    55:             <p> 
+    56:                 or 
+    57:                 Sign in using google account
+    58:                 <%= link_to image_tag("google-sign-in.png"), user_omniauth_authorize_path(:google) %>
+    59:             </p>
+    60:         </div>
+    61:     </div>
+  app/views/users/index.html.erb:58:in `_app_views_users_index_html_erb__2545141493370414726_32212880'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:54:54 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered users/index.html.erb within layouts/login (3.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (google-sign-in.png isn't precompiled):
+    55:             <p> 
+    56:                 or 
+    57:                 Sign in using google account
+    58:                 <%= link_to image_tag("google-sign-in.png"), user_omniauth_authorize_path(:google) %>
+    59:             </p>
+    60:         </div>
+    61:     </div>
+  app/views/users/index.html.erb:58:in `_app_views_users_index_html_erb__2545141493370414726_32212880'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:57:30 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (1.8ms)
+  Rendered users/index.html.erb within layouts/login (174.5ms)
+Completed 500 Internal Server Error in 855ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+    at <eval>:1605:19431
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb___3815414230955139584_27995520'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-29 18:58:51 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/login (2.8ms)
+Completed 500 Internal Server Error in 335ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb___3815414230955139584_27995520'
+  app/controllers/users_controller.rb:5:in `index'
+
+

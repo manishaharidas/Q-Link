@@ -1,24 +1,33 @@
 QLink::Application.routes.draw do
-  devise_for :users, :controllers => { :omniauth_callbacks => "callbacks" }
-root :to=>"users#index"
-
-resources :events do
-  member do
+    devise_for :users, :controllers => { :omniauth_callbacks => "callbacks", :sessions => "sessions"}
+    root :to => "users#index"
+    resources :users do
+        member do
+        end
+        collection do
+            get 'set_password'
+            post 'save_password'
+        end
     end
-  collection do
-     get 'form_4_event'
-     post 'create'
-end
-end
-resources :profiles do
-  member do
-  end
-  collection do
-    get 'profile_form'
-    post 'create'
-    get 'about'
-  end
-end
+    resources :events do
+        member do
+        end
+        collection do
+            get 'form_4_event'
+            post 'create'
+        end
+    end
+    resources :profiles do
+        member do
+        end
+        collection do
+            get 'profile_form'
+            post 'create'
+            get 'about'
+        end
+    end
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

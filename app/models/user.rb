@@ -10,12 +10,19 @@ class User < ActiveRecord::Base
   	# attr_accessible :title, :body
 
   	def self.find_for_open_id(access_token, signed_in_resource=nil)
-		data = access_token['info']
+		    data = access_token['info']
+		    if user = User.where(:email => data['email']).first
+			     return user
+		    else #create a user with stub pwd
+			     User.create!(:email => data['email'], :password => Devise.friendly_token[0,20])
 
-		if user = User.where(:email => data['email']).first
-			return user
-		else #create a user with stub pwd
-			User.create!(:email => data['email'], :password => Devise.friendly_token[0,20])
-		end
-	end
+		    end
+	  end
+
+    def self.create_password(password)
+        if password.present?
+           p = Digest::MD5.hexdigest(password)
+        end
+        return p
+    end
 end
