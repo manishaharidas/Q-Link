@@ -1,0 +1,49 @@
+ 
+ <link href="/assets/blogs.css" media="screen" rel="stylesheet" type="text/css" />
+<div id ="index">
+    <div class="span6">
+      POST YOUR BLOGS!!!!
+      <%= form_for :blog, :url => {:controller => 'blogs', :action => 'create'} do |f| %>
+         <p> BLOG HEADER:   <%= f.text_field :title  %> </p>
+        
+         <p> Content: &nbsp  &nbsp  &nbsp  &nbsp &nbsp&nbsp&nbsp&nbsp  <%= f.text_area :content ,{:class => 'option-large'}%> </p>
+        
+         <p> Tag  &nbsp &nbsp&nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp   &nbsp&nbsp&nbsp<%= f.text_field :tag  %>  <p>
+        
+         <p>  <%= f.submit "Post", 'class'=>"btn btn-primary"%> <p>
+
+      <% end %>
+    </div>
+</div>
+
+<div id ="Question">
+    <%@posts.each do |post| %>
+            
+            <h4><strong><a href="#"><h1> <td><%= post.title %></td></h1></a></strong></h4>
+            
+            <div class="span2">
+                <a href="#" class="thumbnail">
+                <img src="http://placehold.it/260x180" alt="">
+                </a>
+            </div>
+      
+            <div class="span6">      
+                <p><td><%= post.content %></td></p>
+            </div>
+            
+            <div class="row">
+                <div class="span8">
+                    <br> <br> <br> 
+                    <p>
+                    <i class="icon-user"></i> by <a href="#">User</a> 
+                    | <i class="icon-calendar"></i> Posted <%= Time.at(post.created_at) %>
+                    | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+                    | <i class="icon-share"></i> <a href="#">39 Kudos</a>
+                    | <i class="icon-tags"></i> Tags :  <a href="#"><span class="label label-info"><%= post.tag%></a>
+                    </p>
+                </div>
+            </div>
+              <hr>
+    <%end%>  
+      
+</div>

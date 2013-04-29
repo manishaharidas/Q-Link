@@ -1,0 +1,36 @@
+ 
+ <link href="/assets/discussions.css" media="screen" rel="stylesheet" type="text/css" />
+<div id ="index">
+    <div class="span6">
+      Post Your Question Here
+      <%= form_for :discussion, :url => {:controller => 'discussions', :action => 'create'} do |f| %>
+         <p> Question Title:   <%= f.text_field :title  %> </p>
+        
+         <p> Question: &nbsp  &nbsp  &nbsp  &nbsp   <%= f.text_area :content ,{:class => 'option-large'}%> </p>
+        
+         <p> Tag  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp <%= f.select :tag, [['I-phone','ios'],['Android','android'],['Java','java'],['Rails','rails'],['HTML','html']] %> <p>
+        
+         <p>  <%= f.submit "Ask", 'class'=>"btn btn-primary"%> <p>
+      <% end %>
+    </div>
+</div>
+
+<div id ="Question"
+    <div class="span8">
+        <% @posts.each do |post| %>
+            <h1> <td><%= post.title %></td></h1>
+            <p><td><%= post.content %></td></p>
+
+             <div>
+                <span class="badge badge-success"><td> Posted <%= post.created_at %></td></p></span><div class="pull-right"><span class="label"><%= post.tag%></span> <span class="label">User</span> <span class="label">blog</span> <span class="label">personal</span>
+             </div>
+             <br>
+             <hr>
+         <%end%>  
+     </div>     
+  
+    
+   
+    
+</div>
+</div>
