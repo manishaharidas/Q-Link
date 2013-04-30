@@ -1,0 +1,29 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1367293975.0942297:@value"À[I"²#index
+  {
+  	 position:absolute;
+  	 left : 232px;
+  	 border-style:solid;
+     border-width:1px;
+     width :715px;
+     text-align: center;
+     height :300px;
+     top :200px;
+  }
+
+#Question
+  {
+  	position : absolute;
+  	/*left :500px; */
+    top :550px;
+    left :232px;
+  	border-style:solid;
+    border-width:1px;
+    text-align: :left;
+    padding : 10px;
+    width :700px;
+  }
+
+.option-large {
+  height: 100px !important;
+}
+:EF

@@ -300,3 +300,660 @@ Error
   app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4393520116883756297_36815960'
 
 
+Connecting to database specified by database.yml
+Started GET "/discussions/form_disc" for 127.0.0.1 at 2013-04-29 18:54:56 +0530
+Processing by DiscussionsController#form_disc as HTML
+  Rendered discussions/form_disc.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 194ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    3: 
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1709749711362698680_31026080'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:16:57 +0530
+Processing by UsersController#index as HTML
+Redirected to http://0.0.0.0:3000/users/sign_in
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:16:57 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.6ms)
+Completed 500 Internal Server Error in 280ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    3: 
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2211525181796141531_24918100'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:16:58 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:17:34 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Compiled blogs.css  (0ms)  (pid 4099)
+Compiled blogs.css  (981ms)  (pid 4099)
+Compiled bootstrap_and_overrides.css  (1048ms)  (pid 4099)
+Compiled discussions.css  (0ms)  (pid 4099)
+Compiled discussions.css  (14ms)  (pid 4099)
+Compiled events.css  (0ms)  (pid 4099)
+Compiled login.css  (0ms)  (pid 4099)
+Compiled profiles.css  (0ms)  (pid 4099)
+Compiled bootstrap-datepicker.css  (0ms)  (pid 4099)
+Compiled application.css  (2202ms)  (pid 4099)
+Compiled jquery.js  (2ms)  (pid 4099)
+Compiled jquery_ujs.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 4099)
+Compiled twitter/bootstrap.js  (99ms)  (pid 4099)
+Compiled application.js  (302ms)  (pid 4099)
+Completed 500 Internal Server Error in 3399ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+  (in /home/qbadmin/Project/Q-Link/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3615687366869737761_28446740'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:17:38 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:20:17 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 312ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+  (in /home/qbadmin/Project/Q-Link/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3615687366869737761_28446740'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:20:18 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:20:31 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 738ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+    at <eval>:1605:19431
+  (in /home/qbadmin/Project/Q-Link/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3743473218323378648_29733580'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:20:32 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:21:22 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 706ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+    at <eval>:1605:19431
+  (in /home/qbadmin/Project/Q-Link/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2350160710765057077_36203840'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:21:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:22:28 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 302ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+  (in /home/qbadmin/Project/Q-Link/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2350160710765057077_36203840'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:22:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:22:41 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Compiled blogs.js  (159ms)  (pid 4268)
+Compiled bootstrap.js  (8ms)  (pid 4268)
+Compiled discussions.js  (0ms)  (pid 4268)
+Compiled events.js  (0ms)  (pid 4268)
+Compiled profiles.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/core.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.bg.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.br.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ca.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.cs.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.da.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.de.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.el.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.es.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fi.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fr.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.he.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hr.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hu.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.id.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.is.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.it.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ja.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.kr.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lt.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lv.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ms.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nb.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nl.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pl.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ro.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ru.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sk.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sl.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sv.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sw.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.th.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.tr.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.uk.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js  (0ms)  (pid 4268)
+Compiled bootstrap-datepicker/index.js  (675ms)  (pid 4268)
+Compiled application.js  (1136ms)  (pid 4268)
+Completed 200 OK in 4144ms (Views: 4037.4ms | ActiveRecord: 1.3ms)
+Started GET "/assets/application-fa29f9f67fa951e72f509efc138f67af.css" for 127.0.0.1 at 2013-04-30 09:22:45 +0530
+Served asset /application-fa29f9f67fa951e72f509efc138f67af.css - 200 OK (0ms)
+Started GET "/assets/application-ccfd2ce3139bee2d34b12e62abd3e9e0.js" for 127.0.0.1 at 2013-04-30 09:22:45 +0530
+Served asset /application-ccfd2ce3139bee2d34b12e62abd3e9e0.js - 200 OK (0ms)
+Started GET "/assets/login.css" for 127.0.0.1 at 2013-04-30 09:22:45 +0530
+Served asset /login.css - 200 OK (15ms)
+Started GET "/assets/Qburst-0ffc60385bd705416945f8c199455b8a.jpg" for 127.0.0.1 at 2013-04-30 09:22:45 +0530
+Served asset /Qburst-0ffc60385bd705416945f8c199455b8a.jpg - 200 OK (0ms)
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:22:46 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/discussions/form_disc" for 127.0.0.1 at 2013-04-30 09:22:53 +0530
+Processing by DiscussionsController#form_disc as HTML
+  Rendered discussions/form_disc.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 184ms (Views: 38.2ms | ActiveRecord: 103.2ms)
+Started GET "/assets/discussions.css" for 127.0.0.1 at 2013-04-30 09:22:53 +0530
+Served asset /discussions.css - 200 OK (27ms)
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:22:53 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/blogs/form_blog" for 127.0.0.1 at 2013-04-30 09:22:55 +0530
+Processing by BlogsController#form_blog as HTML
+  Rendered blogs/form_blog.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 6.4ms | ActiveRecord: 1.1ms)
+Started GET "/assets/blogs.css" for 127.0.0.1 at 2013-04-30 09:22:55 +0530
+Served asset /blogs.css - 200 OK (18ms)
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.2" for 127.0.0.1 at 2013-04-30 09:22:55 +0530
+Served asset /fontawesome-webfont.woff - 200 OK (24ms)
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:22:55 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:22:59 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:23:11 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/discussions/form_disc" for 127.0.0.1 at 2013-04-30 09:23:21 +0530
+Processing by DiscussionsController#form_disc as HTML
+  Rendered discussions/form_disc.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.6ms)
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:23:21 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/qbadmin/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
