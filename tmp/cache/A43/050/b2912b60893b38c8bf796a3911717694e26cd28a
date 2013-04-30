@@ -1,0 +1,61 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1367293958.8396232:@value"¢[I"”#container {
+    border:2px solid;
+    width:1270px;
+    height:640px;
+    background-color:white;
+}
+#header {
+    margin-top:10px;
+    margin-left:10px;
+    height:60px;
+    width:1250px;
+    border:2px solid;
+    background-color:grey; 
+}
+#welcome {
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+    width:810px;
+    height:440px;
+    border:2px solid;
+    
+}
+#login_form {
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    height: 440px;
+    width:425px;
+    border:2px solid;
+    color:#333;
+    cursor:hand;
+    background-color:white; 
+}
+#login_form_fields {
+    margin-left: 20px;
+
+}
+.option-large {
+ height:30px !important;
+ width:200px;
+}
+#login_form h3 {
+
+    text-align: left;
+}
+#login_form p {
+
+    text-align: center;
+}
+#footer {
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    height:90px;
+    width:1250px;
+    border:2px solid;
+    background-color:grey; 
+}
+
+:EF

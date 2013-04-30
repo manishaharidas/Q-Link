@@ -507,3 +507,266 @@ Error
   app/controllers/users_controller.rb:5:in `index'
 
 
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:14:41 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered users/index.html.erb within layouts/login (211.2ms)
+Completed 500 Internal Server Error in 2039ms
+
+ActionView::Template::Error (Unexpected token: operator (<<) (line: 12323, col: 0, pos: 346888)
+
+Error
+    at new JS_Parse_Error (<eval>:1605:10542)
+    at js_error (<eval>:1605:10867)
+    at croak (<eval>:1605:18560)
+    at token_error (<eval>:1605:18697)
+    at unexpected (<eval>:1605:18785)
+    at expr_atom (<eval>:1605:26731)
+    at maybe_unary (<eval>:1605:29155)
+    at expr_ops (<eval>:1605:29913)
+    at maybe_conditional (<eval>:1605:30005)
+    at maybe_assign (<eval>:1605:30448)
+    at expression (<eval>:1605:30761)
+    at simple_statement (<eval>:1605:21727)
+    at <eval>:1605:19900
+    at <eval>:1605:19431
+  (in /home/user/ql/app/assets/javascripts/application.js)):
+    4: <head>
+    5:   <title>Qlinkdemo</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+    10: <body>
+  app/views/layouts/login.html.erb:7:in `_app_views_layouts_login_html_erb__1936265676240182113_26088800'
+  app/controllers/users_controller.rb:5:in `index'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:14:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-30 09:14:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:22:33 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (2.1ms)
+  Rendered users/index.html.erb within layouts/login (252.3ms)
+Compiled bootstrap.js  (202ms)  (pid 2977)
+Compiled events.js  (1ms)  (pid 2977)
+Compiled profiles.js  (0ms)  (pid 2977)
+Compiled users.js  (1ms)  (pid 2977)
+Compiled bootstrap-datepicker/core.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.bg.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.br.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ca.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.cs.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.da.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.de.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.el.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.es.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fi.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.fr.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.he.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hr.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.hu.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.id.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.is.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.it.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ja.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.kr.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lt.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.lv.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ms.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nb.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.nl.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pl.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.pt.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ro.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.rs.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.ru.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sk.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sl.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sv.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.sw.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.th.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.tr.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.uk.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js  (0ms)  (pid 2977)
+Compiled bootstrap-datepicker/index.js  (665ms)  (pid 2977)
+Compiled application.js  (1059ms)  (pid 2977)
+Completed 200 OK in 4669ms (Views: 4601.5ms | ActiveRecord: 67.2ms)
+Started GET "/assets/application-19c0471083773d2cb70471b1722c76b6.css" for 127.0.0.1 at 2013-04-30 09:22:38 +0530
+Served asset /application-19c0471083773d2cb70471b1722c76b6.css - 200 OK (0ms)
+Started GET "/assets/application-073432fd70b69e29a3120bab17a6968c.js" for 127.0.0.1 at 2013-04-30 09:22:38 +0530
+Served asset /application-073432fd70b69e29a3120bab17a6968c.js - 200 OK (0ms)
+Started GET "/assets/google-sign-in-bf25d5ca2275862922ac30bf057a3a53.png" for 127.0.0.1 at 2013-04-30 09:22:38 +0530
+Served asset /google-sign-in-bf25d5ca2275862922ac30bf057a3a53.png - 200 OK (0ms)
+Started GET "/assets/login.css" for 127.0.0.1 at 2013-04-30 09:22:38 +0530
+Served asset /login.css - 200 OK (4ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:22:43 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yxLJ9d0TWEjvYQ5IwidPoo+3GJSVG+gqk5tVuF9R+oY=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:22:43 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/login (2.4ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:22:51 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yxLJ9d0TWEjvYQ5IwidPoo+3GJSVG+gqk5tVuF9R+oY=", "user"=>{"email"=>"vishnun@qburst.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 165ms (ActiveRecord: 33.7ms)
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:22:51 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/login (2.5ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:22:58 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yxLJ9d0TWEjvYQ5IwidPoo+3GJSVG+gqk5tVuF9R+oY=", "user"=>{"email"=>"anild@qburst.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:22:58 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/login (1.9ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:23:06 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yxLJ9d0TWEjvYQ5IwidPoo+3GJSVG+gqk5tVuF9R+oY=", "user"=>{"email"=>"anild@qburst.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://0.0.0.0:3000/profiles/about
+Completed 302 Found in 144ms (ActiveRecord: 59.5ms)
+Started GET "/profiles/about" for 127.0.0.1 at 2013-04-30 09:23:06 +0530
+Processing by ProfilesController#about as HTML
+  Rendered profiles/about.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.4ms)
+Started GET "/assets/Qburst-0ffc60385bd705416945f8c199455b8a.jpg" for 127.0.0.1 at 2013-04-30 09:23:06 +0530
+Served asset /Qburst-0ffc60385bd705416945f8c199455b8a.jpg - 200 OK (0ms)
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-04-30 09:23:09 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yxLJ9d0TWEjvYQ5IwidPoo+3GJSVG+gqk5tVuF9R+oY="}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 96ms (ActiveRecord: 0.5ms)
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:23:10 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/login (2.9ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+Started GET "/users/auth/google" for 127.0.0.1 at 2013-04-30 09:23:12 +0530
+Started GET "/users/auth/google/callback?_method=post&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fud&openid.response_nonce=2013-04-30T03%3A53%3A58Za123QtUirfOG3g&openid.return_to=http%3A%2F%2F0.0.0.0%3A3000%2Fusers%2Fauth%2Fgoogle%2Fcallback%3F_method%3Dpost&openid.assoc_handle=1.AMlYA9XJE3uhdXZwmvsM4ALPad0TOZtDaRjUZ6gJZzJKKcEGsVBBsUCjAkSObw&openid.signed=op_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle%2Cns.ext1%2Cext1.mode%2Cext1.type.ext2%2Cext1.value.ext2%2Cext1.type.ext3%2Cext1.value.ext3%2Cext1.type.ext0%2Cext1.value.ext0&openid.sig=ehHjzBXHvX6G9oxIRreTgCXBJa8%3D&openid.identity=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawk9VQrgyFcymbDsJI57M5OZK9aKWQ0UMmg&openid.claimed_id=https%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid%3Fid%3DAItOawk9VQrgyFcymbDsJI57M5OZK9aKWQ0UMmg&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_response&openid.ext1.type.ext2=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&openid.ext1.value.ext2=JITHU&openid.ext1.type.ext3=http%3A%2F%2Faxschema.org%2FnamePerson%2Flast&openid.ext1.value.ext3=JOHN&openid.ext1.type.ext0=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&openid.ext1.value.ext0=jithubosco%40gmail.com" for 127.0.0.1 at 2013-04-30 09:23:58 +0530
+Processing by CallbacksController#google as HTML
+Redirected to http://0.0.0.0:3000/users/set_password
+Completed 302 Found in 343ms (ActiveRecord: 172.6ms)
+Started GET "/users/set_password" for 127.0.0.1 at 2013-04-30 09:23:59 +0530
+Processing by UsersController#set_password as HTML
+  Rendered users/set_password.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+Started POST "/users/save_password?method=post" for 127.0.0.1 at 2013-04-30 09:24:11 +0530
+Processing by UsersController#save_password as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vryoQ/E5rXDylsGwYHSDjl5zIXKDsXo5fD+iKtOUEs8=", "user"=>{"password"=>"[FILTERED]"}, "commit"=>"CREATE PASSWORD", "method"=>"post"}
+Redirected to http://0.0.0.0:3000/profiles/about
+Completed 302 Found in 53ms (ActiveRecord: 47.4ms)
+Started GET "/profiles/about" for 127.0.0.1 at 2013-04-30 09:24:11 +0530
+Processing by ProfilesController#about as HTML
+  Rendered profiles/about.html.erb within layouts/application (72.7ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <%= current_user.email%>
+  app/views/profiles/about.html.erb:1:in `_app_views_profiles_about_html_erb__881433767136735460_38770660'
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:24:24 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered users/index.html.erb within layouts/login (5.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:24:32 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vryoQ/E5rXDylsGwYHSDjl5zIXKDsXo5fD+iKtOUEs8=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:24:32 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/login (2.1ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-30 09:25:01 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vryoQ/E5rXDylsGwYHSDjl5zIXKDsXo5fD+iKtOUEs8=", "user"=>{"email"=>"jithubosco@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://0.0.0.0:3000/profiles/about
+Completed 302 Found in 65ms (ActiveRecord: 61.4ms)
+Started GET "/profiles/about" for 127.0.0.1 at 2013-04-30 09:25:01 +0530
+Processing by ProfilesController#about as HTML
+  Rendered profiles/about.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2013-04-30 09:25:19 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vryoQ/E5rXDylsGwYHSDjl5zIXKDsXo5fD+iKtOUEs8="}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+Started GET "/" for 127.0.0.1 at 2013-04-30 09:25:19 +0530
+Processing by UsersController#index as HTML
+  Rendered devise/shared/_links.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/login (2.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
